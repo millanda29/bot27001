@@ -27,7 +27,7 @@ def evaluar_respuesta(caso, respuesta_usuario):
             "El siguiente caso de estudio requiere una respuesta relacionada con ISO 27001. "
             "El usuario no proporcionó una respuesta válida. Ayúdalo con una retroalimentación constructiva "
             "sobre cómo podría comenzar a abordar este tipo de casos, qué elementos debe considerar, "
-            "y cómo aplicar conceptos de la norma ISO 27001.\n\n"
+            "y cómo aplicar conceptos de la norma ISO 27001. Recuerda mencionar con detalle cada norma o anexo utilizados como referencia.\n\n"
             f"CASO:\n{caso}"
         )
         response = model.generate_content(prompt_feedback)
